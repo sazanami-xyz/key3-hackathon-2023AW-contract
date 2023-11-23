@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# key3-hackathon-2023AW-contractのコントラクト
+key3ハッカソンに提出するプロダクトのコントラクト側
+以下にテックスタックを記載
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## テックスタック
 
-Try running some of the following tasks:
+### 言語
+solidity
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### ライブラリ
+openzeppelin
+
+### テストツールなど
+hardhat
+
+### 使用チェーン
+zKatana
+
+その他、ベースにはUNCHAINさんの教材を使用しています、ありがとうございます。
